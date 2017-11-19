@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.50"
+    android:background="#fefefe"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="KOU YEMEKHANE"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#047b1c"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-29dp"
+        android:background="@drawable/kou_logo"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fefefe"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bilgiler">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ÇORBA"
+            android:id="@+id/last"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#848484"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/corba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#060606"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:id="@+id/imageView6"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#e7e7f5" />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fefefe"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bilgiler2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Yemek(SEÇMELİ)"
+            android:id="@+id/last34"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#848484"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-"
+            android:id="@+id/anayemek"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#060606"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:id="@+id/imageView6aa"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#e7e7f5"  />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fefefe"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bilgiler3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Yardımcı Yemek"
+            android:id="@+id/lasdst"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#848484"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-"
+            android:id="@+id/yardimciYemek"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#060606"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:id="@+id/imageView6e"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#e7e7f5" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fefefe"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bilgiler4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tatlı - Meyve"
+            android:id="@+id/d"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#848484"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-"
+            android:id="@+id/tatli"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#060606"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:id="@+id/sas"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#e7e7f5" />
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="AFİYET OLSUN :)"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#d1570b"
+        android:id="@+id/mesaj"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Yemekhane 11:00-14:30 ve 16:00-20:00 saatleri arasında açıktır."
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#969696"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="14dp"
+        />
+
+</LinearLayout>
